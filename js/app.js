@@ -31,8 +31,6 @@ Enemy.prototype.update = function(dt) {
 	else {
 		this.x = 20;
 	}
-
-	// Handle collision
 };
 
 // Draw the enemy on the screen, required method for game
@@ -101,7 +99,6 @@ var allEnemies = [enemyA, enemyB, enemyC, enemyD];
 // Place the player object in a variable called player
 var player = new Player();
 
-// Define checkCollisions method
 function checkCollisions() {
 	// for each bug check their position and player position 
 	allEnemies.forEach(function(bug){
