@@ -83,7 +83,8 @@ Player.prototype.handleInput = function (key) {
 	{
 		this.y = this.y + 70;
 	} else if (this.y === 50) {
-		player.resetPlayerPositions();
+		this.x = 200;
+		this.y = 400;
 	}
 };
 
